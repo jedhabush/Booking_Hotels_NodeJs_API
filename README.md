@@ -4,7 +4,9 @@ This is a NodeJs backend project to create a server API to fetch and receive dat
 # Technologies 
 
 - **NodeJs** <br/>
-I used Node.js for server-side operations, and the benefits of using nodeJs as the backend is the ability to **asynchronous request handling**. So instead of waiting for the function to complete after fetching the data, Node.js will run the next requests, while processing the inputs and outputs (like fetching data) in the background. This is possible because of callbacks and promises.
+NodeJS is a JavaScript runtime environment that we use to build server-side applications. I used Node.js for server-side operations, and the benefits of using nodeJs as the backend is the ability to **asynchronous request handling**. So instead of waiting for the function to complete after fetching the data, Node.js will run the next requests, while processing the inputs and outputs (like fetching data) in the background. This is possible because of callbacks and promises.
+- **Express** <br/>
+Of course when we mention NodeJs, ExpressJs is usually part of the story. It's important to distinguish the difference between Express and NodeJs. ExpressJs is a node js web application framework that provides broad features for building web and mobile applications. It saves a lot of coding time almost by half and it is relatively easy to use and learn once you get the hang of it. I'm still getting the hang of it.
 - **nodemon** <br/>
 I stumbled upon this library while making this project. It is a very useful tool to watch and update changes as they happen on the backend. It helped me debug my code as I go which saved me a lot of time.
 - **mongoDB** <br/>
